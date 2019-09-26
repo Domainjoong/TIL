@@ -8,10 +8,12 @@
 - insert contexts below
 
 ---
+
 JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 PATH=$PATH:$JAVA_HOME/bin
 export JAVA_HOME
 export PATH
+
 ---
 
 ## setup apache-spark
