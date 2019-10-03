@@ -6,18 +6,16 @@
 a, b, c = 0xa, 0xb, 0xc
 bin(a), bin(b), bin(c)
 ```
-
 	'0b1010', '0b1011', '0b1100'
-
 
 ---
 - 메모리 주소를 나타낼 때 16진수를 사용하는 이유: 짧아서
 ---
+```python
+address_8bit = 0b00101101
+hex(address_8bit)
 ```
->>> address_8bit = 0b00101101
->>> hex(address_8bit)
-'0x2d'
-```
+	'0x2d'
 ---
 
 ## 2. 보수의 개념
