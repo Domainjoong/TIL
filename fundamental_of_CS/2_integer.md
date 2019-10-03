@@ -26,6 +26,7 @@ hex(address_8bit)
 #### 2) 2진수에서 1의 보수와 2의 보수 계산
 <img src="./img/2-2-2.jpg" width="40%">
 - 코드로 계산하기
+
 ---
 ```python
 (-4).to_bytes(1, byteorder='little', signed=True)
