@@ -9,10 +9,11 @@
 - `brew install scala`
 
 #### 3. install py4j
-- `pip install py4j`
+- `pip install py4j==0.10.7`
+- pyspark 2.4.4 has requirement py4j==0.10.7
 
 #### 4. environment path setting
-- `vi ~/.bash_profile`
+- `vi ~/.zshrc`
 - insert contexts below
 
 ---
@@ -28,7 +29,7 @@ export SCALA_HOME=/usr/local/Cellar/scala/2.13.1/libexec
 export PATH=$PATH:$SCLAL_HOME/bin
 ```
 ---
-- `source ~/.bash_profile`
+- `source ~/.zshrc`
 
 
 ## setup apache-spark
@@ -37,7 +38,7 @@ export PATH=$PATH:$SCLAL_HOME/bin
 - `brew install apache-spark`
 
 #### 2. environment path setting
-- `vi ~/.bash_profile`
+- `vi ~/.zshrc`
 - insert contexts below
 
 ---
@@ -51,7 +52,7 @@ export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$PYTHONPATH
 export PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH
 ```
 ---
-- `source ~/.bash_profile`
+- `source ~/.zshrc`
 
 ## Pyspark on Jupyter notebook
 #### 1. Use findspark
